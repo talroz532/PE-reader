@@ -18,7 +18,7 @@ int main() {
 	fptr = fopen(filePath, "rb");
 	if (fptr == NULL )
 	{
-		printf("error reading the file!");
+		printf("error opening the file!");
 		return -1;
 	}
 
