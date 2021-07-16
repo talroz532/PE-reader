@@ -24,7 +24,7 @@ int main() {
 
 	//size of file
 	fseek(fptr, 0, SEEK_END);
-	size_t fileSize = ftell(fptr);
+	size_t fileSize = ftell(fptr)/1024;
 
 	printf("\n\t\t==INFOMARTION==\nfile size: %d KB\n\n", fileSize);
 
