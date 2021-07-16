@@ -8,7 +8,7 @@
 int main() {
 	const char* filePath = "";
 
-	if (filePath == "")
+	if (!*filePath)
 	{
 		printf("No file was declared!\n");
 		return -1;
