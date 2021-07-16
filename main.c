@@ -7,7 +7,7 @@
 
 
 int main() {
-	const char* filePath = "C:\\Users\\Tal\\Desktop\\SavtMona\\RzLogger.dll";
+	const char* filePath = "";
 
 	if (strlen(filePath) <1)
 	{
